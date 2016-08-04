@@ -39,6 +39,11 @@
     "browser-test-cover": "rc-tools run browser-test-cover"
   },
   "devDependencies": {
+    "babel-core": "^6.11.4",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-object-rest-spread": "^6.8.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
     "expect.js": "0.3.x",
     "pre-commit": "1.x",
     "rc-server": "3.x",
@@ -54,6 +59,7 @@
     "classnames": "^2.2.5",
     "rc-tooltip": "^3.4.2",
     "rc-util": "^3.2.1",
-    "warning": "^3.0.0"
+    "warning": "^3.0.0",
+    "webpack": "^1.13.1"
   }
 }
